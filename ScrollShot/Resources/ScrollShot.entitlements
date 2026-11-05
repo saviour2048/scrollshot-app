@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sandbox is disabled for local development so the screen-recording
+	     TCC grant persists while running from Xcode. Re-enable with the
+	     proper temporary-exception entitlements before distributing. -->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+	<!-- Hardened Runtime blocks a signed app from sending Apple Events unless
+	     this entitlement is present. Without it, controlling Finder / System
+	     Events (empty trash, sleep, restart, shutdown, log out) fails SILENTLY —
+	     no sleep, no error, no permission prompt (the bug we hit). -->
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+</dict>
+</plist>

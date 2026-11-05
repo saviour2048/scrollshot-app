@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Xcode / XcodeGen (project is generated from project.yml)
+*.xcodeproj
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.swiftpm/
+.build/
+*.profraw
+
+# editor
+.vscode/
+
+# local reference clones / session data
+Moments/
+.happier/
+NotchDrop/
+boring-notch/
+mew-notch/

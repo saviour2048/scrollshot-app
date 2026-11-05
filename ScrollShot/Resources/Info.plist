@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleDisplayName</key>
+	<string>ScrollShot</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>ScrollShot 需要控制「访达」来清空废纸篓,以及执行重启、关机、注销等系统命令。</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>ScrollShot 需要辅助功能权限来为长截图自动滚动、键盘重映射和按网站域名切换输入法提供支持。</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>ScrollShot 需要蓝牙权限来接收附近 AirPods 等耳机的电量广播，以便在菜单栏显示设备电量。仅被动接收广播，不会连接或配对任何设备。</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>ScrollShot</string>
+
+	<!-- ===== Sparkle 自动更新 ===== -->
+	<!-- ↓↓↓ 部署前必须改这两个值 ↓↓↓ -->
+	<!-- 1. 你服务器上 appcast.xml 的公开地址 -->
+	<key>SUFeedURL</key>
+	<string>https://scrollshot-dl.oss-cn-beijing.aliyuncs.com/appcast.xml</string>
+	<!-- 2. 运行 `bin/generate_keys` 后打印出来的 EdDSA 公钥(私钥留在你的钥匙串里,绝不外传) -->
+	<key>SUPublicEDKey</key>
+	<string>JTBwvbFQHUaqcuq9RhxCzTd2CqaIKP3iWea1QNPd3+0=</string>
+	<!-- ↑↑↑ 部署前必须改这两个值 ↑↑↑ -->
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
+</dict>
+</plist>

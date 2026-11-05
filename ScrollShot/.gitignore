@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+*.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# Build / derived data
+build/
+DerivedData/
+
+# Temporary research clones (kept locally for reference, not part of the app)
+DropShelf/
+Dropp/
+NotchDrop/
+boring-notch/
+mew-notch/
+keyStats-research/
